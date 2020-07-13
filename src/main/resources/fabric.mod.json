@@ -1,31 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "stacking-potions",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Stacking Potions",
+  "description": "Little mod that allows potion duration to stack as well as decrease potion drinking time.",
   "authors": [
-    "Me!"
+    "EatMyVenom"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/eatmyvenom/mcStackingPotions"
   },
 
-  "license": "CC0-1.0",
+  "license": "MPL-2.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "mixins": [
-    "modid.mixins.json"
+    "stackingPotions.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "fabricloader": ">=0.7.4"
   }
 }
